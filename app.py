@@ -7,7 +7,7 @@ from flask import Flask
 from controller.ctrl_database import database
 from controller.ctrl_test import test
 
-# declare the flask app
+# Declare the flask app
 app = Flask(__name__)
 
 # Register the end-points in the app
@@ -21,5 +21,5 @@ def hello():
 
 if __name__ == "__main__":
 
-    # Start the app in the port 888
+    # Start the app in the port 8888
     app.run(port=8888)
